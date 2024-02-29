@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameObjects>
+	<GameObject>
+		<name>Player</name>
+		<TransformComponent>
+			<position>50,200</position>
+			<scale>1,1</scale>
+			<rotation>45</rotation>
+		</TransformComponent>
+		<StateMachineComponent>
+			<states>Idle,Run,Attack</states>
+		</StateMachineComponent>
+		<AnimationComponent>
+			<path>xx</path>
+			<rows>5</rows>
+			<columns>4</columns>
+		</AnimationComponent>
+		<RigidbodyComponent>
+			<velocity>5,2</velocity>
+			<mass>20</mass>
+		</RigidbodyComponent>
+	</GameObject>
+	<GameObject>
+		<name>Enemy</name>
+	</GameObject>
+	<GameObject>
+		<name>Ally</name>
+	</GameObject>
+</GameObjects>
